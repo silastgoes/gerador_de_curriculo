@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+    background-color: #888888;
+    color: rgba(0, 0, 0, 1);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Interface*/
+
+div#interface {
+    padding: 20px;
+    margin: -20px auto 0px auto;
+    background-color: #dedede;
+    width: 1200px;
+}
+
+
+/*Cabeçalho*/
+
+header#cabecalho {
+    padding: 10px;
+    border-bottom: 1px black solid;
+}
+
+
+/*Rodapé*/
+
+footer#rodape {
+    padding: 10px;
+    border-top: 1px black solid;
+}
+
+footer#rodape p {
+    text-align: center;
+}
