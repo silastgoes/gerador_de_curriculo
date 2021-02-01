@@ -11,17 +11,89 @@
 
 <body>
     <div id="interface">
-        <header id="cabecalho">
+        <header id="form-header">
             <h1>Gerador de Currículos Online</h1>
         </header>
-        <section id="corpo">
-            <p>Inserir formulário aqui</p>
+        <section id="form-section">
+            <form method="POST">
+                <fieldset id="user">
+                    <legend>Perfil</legend>
+                    <p>
+                        <label for="user-name">Nome</label>
+                        <input type="text" name="user-name" id="user-name">
+                    </p>
+                    <p>
+                        <label for="user-lastname">Sobrenome</label>
+                        <input type="text" name="use-lastname" id="user-lastname">
+                    </p>
+                    <p>
+                        <label for="user-cargo">Cargo</label>
+                        <input type="text" name="user-cargo" id="user-cargo">
+                    </p>
+                    <p>
+                        <label for="user-mail">E-mail</label>
+                        <input type="email" name="user-mail" id="user-mail">
+                    </p>
+                    <p>
+                        <label for="user-bio">Bio</label>
+                        <textarea name="user-bio" id="user-bio" cols="30" rows="10"></textarea>
+                    </p>
+                    <fieldset id="address">
+                        <legend>Endereço</legend>
+                        <p>
+                            <label for="country">Pais</label>
+                            <select name="country" id="country"></select>
+                        </p>
+                        <p>
+                            <label for="user-cellphone">Telefone</label>
+                            <input type="text" name="user-cellphone" id="user-cellphone">
+                        </p>
+                        <p>
+                            <label for="state">Estado</label>
+                            <select name="state" id="state"></select>
+                        </p>
+                        <p>
+                            <label for="city">Cidade</label>
+                            <select name="city" id="city"></select>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Redes Sociais</legend>
+                    </fieldset>
+                </fieldset>
+                <fieldset id="skills">
+                    <legend>Habilidade</legend>
+                    <p>
+                        <label for=""></label>
+                        <input type="text">
+                    </p>
+                </fieldset>
+                <fieldset id="experience">
+                    <legend>Experiência Profissinal</legend>
+                </fieldset>
+                <fieldset id="graduate">
+                    <legend>Graduação</legend>
+                    <p>
+                        <label for="graduate-level">Nível de Graduação</label>
+                        <select name="graduate-level" id="graduate-level">
+                            <option value="">Ensino Médio Incompleto</option>                            
+                            <option value="">Ensino Médio Completo</option>
+                            <option value="">Ensino Superior Incompleto</option>                            
+                            <option value="">Ensino Superior em Andamento</option>
+                            <option value="">Ensino Superior Completo</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for=""></label>
+                    </p>
+                </fieldset>
+            </form>
         </section>
-        <footer id=rodape>
+        <footer id=form-footer>
             <p>Por:
-                <a href="https://github.com/cleslley">Cleslley Viana</a>,
-                <a href="https://github.com/MarcosMMJr">Marcos Moreira Jr</a>,
-                <a href="https://github.com/silastgoes">Silas T. Goes</a>
+                <a href="https://github.com/cleslley ">Cleslley Viana</a>,
+                <a href="https://github.com/MarcosMMJr ">Marcos Moreira Jr</a>,
+                <a href="https://github.com/silastgoes ">Silas T. Goes</a>
             </p>
         </footer>
     </div>

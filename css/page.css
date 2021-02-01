@@ -26,7 +26,7 @@ div#interface {
 
 /*Cabeçalho*/
 
-header#cabecalho {
+header#form-header {
     padding: 10px;
     border-bottom: 1px black solid;
 }
@@ -34,11 +34,11 @@ header#cabecalho {
 
 /*Rodapé*/
 
-footer#rodape {
+footer#form-footer {
     padding: 10px;
     border-top: 1px black solid;
 }
 
-footer#rodape p {
+footer#form-footer p {
     text-align: center;
 }
